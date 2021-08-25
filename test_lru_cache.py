@@ -52,4 +52,6 @@ def test():
         lru_cache.ll.print()
 
     print(answers)
-test()
+
+if __name__ == "__main__":
+    test()
