@@ -99,7 +99,7 @@ class LL:
         s += "---------"
         return s
         
-    def print_forward(self) -> str:
+    def print_forward(self) -> None:
         print("Linked List:")
         trav = self.head
         while trav is not None:
@@ -108,7 +108,7 @@ class LL:
         print("---------")
 
 
-    def print_reverse(self):
+    def print_reverse(self) -> None:
         print("Linked List in Reverse:")
         trav = self.tail
         while trav is not None:
