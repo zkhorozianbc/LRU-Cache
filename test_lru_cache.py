@@ -15,7 +15,7 @@ def test_ll():
     l.push(n4)
     l.pop(1)
     l.push(n1)
-    l.print()
+    l.print_forward()
     l.print_reverse()
 
 
@@ -49,7 +49,7 @@ def test():
         else:
             raise Exception(f"Bad input at index {i}")
         answers.append(ans)
-        lru_cache.ll.print()
+        lru_cache.ll.print_forward()
 
     print(answers)
 

@@ -98,7 +98,8 @@ class LL:
             trav = trav.next
         s += "---------"
         return s
-    def print(self) -> str:
+        
+    def print_forward(self) -> str:
         print("Linked List:")
         trav = self.head
         while trav is not None:
